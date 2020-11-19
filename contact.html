@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img src="images/aircraft.jpg" alt="aircraft picture" />
+        <img src="images/desert.jpg" alt="Desert picture" />
         <nav>
           <a href="index.html">Home</a>  
           <a href="stories.html">Stories</a>  
@@ -22,7 +22,37 @@
     </header>
 
 <main>
-    <!-- will add main content tomorrow 20/11/2020 -->
+    <article>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" />
+              <br />
+            <label for="sname">Sur Name</label>
+            <input type="text" name="sname" id="sname" />
+            <br />
+            <label for="country">Country</label>
+              <select name="country">
+                  <option value="Australia">Australia</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Japan" selected>Japan</option>
+                  
+              </select>
+              <br />
+              <label for="how">How did you hear about me?</label>
+              <input type="radio" id="website" name="how" checked> Website
+              <input type="radio" id="facebook" name="how"> Facebook
+              <br />
+
+              <label for="comment">Comments</label>
+              <textarea id="comment" 
+              name="comment" 
+              style="height:200px">
+            </textarea>
+              <br />
+              <input type="submit" value="submit" />
+
+        </form>
+    </article>
 </main>
     
 <footer>
